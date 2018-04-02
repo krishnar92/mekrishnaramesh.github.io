@@ -31,6 +31,26 @@
       #mainnav.active{
         box-shadow: 0px 1px 5px grey;
       }
+      .navbar-dropdown.bg-color.transparent .text-info {
+        color: #fff !important;
+      }
+
+      .list-style-bullet {
+        list-style: circle;
+        text-align: left;
+      }
+
+      .cid-qNRZtzrS9e .card-box {
+          padding: 1.5rem;
+          min-width: 250px;
+          min-height: 325px;
+      }
+      .section-sep {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+      }
   </style>
 </head>
 <body>
@@ -119,16 +139,29 @@
                     <img src="assets/images/me-e-700x700.jpg" alt="" title="" style="border-radius: 50%;">
                 </div>
                 <div class=" align-left aside-content">
-                    <h2 class="mbr-title pt-2 mbr-fonts-style display-5">
+
+                    <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">
                         About Me</h2>
                     <div class="mbr-section-text">
                         <p>
                         </p><p>A Software Engineer by heart, I am passionate about solving real-world problems through Computers. <br><br>Distributed and large scale systems interest me. I also enjoy developing web applications using cool new technologies<br><br>An experienced professional, I have worked on developing products from the scratch in technologies completely new to me and gone on to training others on those technologies. I have experience working in a fast-paced Agile environment, participating in various stages including design, development, code review and deployment.&nbsp;<br>
 <br></p><p>What I like:
-<br>
+    <ul class="list-style-bullet">
+        <li>
+            Coding, mostly in Python and Java
+        </li>
+        <li>
+            Develop scalable solutions through               distributed systems(Hadoop/Others)
+        </li>
+        <li>
+            Full-Stack development
+        </li>
+    </ul>
+<!-- <br>
 <br>*  Coding, mostly in Python and Java
 <br>*  Develop scalable solutions through               distributed systems(Hadoop/Others)
-<br>*  Full-Stack development</p>
+<br>*  Full-Stack development -->
+</p>
 
 
                     </div>
@@ -173,6 +206,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
+                <img src="assets/images/section.svg" class="section-sep" alt="">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">
                     Skills</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"></h3>
@@ -190,8 +224,16 @@
                 <div class="card-wrapper media-container-row media-container-row">
                     <div class="card-box">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7" >
-                            Programming &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
-                        <p class="mbr-text mbr-fonts-style display-7">* Java<br>* Python<br>* Ruby<br>* Bash<br><br><br><br><br></p>
+                            Programming</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <ul class="list-style-bullet">
+                                <li>Java </li>
+                                <li>Python </li>
+                                <li>Ruby </li>
+                                <li>Bash </li>
+                            </ul>
+                            <!-- * Java<br>* Python<br>* Ruby<br>* Bash<br><br><br><br><br> -->
+                        </p>
                         
                         </p>
                     </div>
@@ -202,8 +244,19 @@
                 <div class="card-wrapper media-container-row">
                     <div class="card-box">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7" >
-                            Web &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
-                        <p class="mbr-text mbr-fonts-style display-7">* HTML<br>* CSS<br>* Javascript<br>* jQuery<br>* AngularJS<br>* Python Django<br>* Ruby Sinatra<br><br></p>
+                            Web </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <ul class="list-style-bullet">
+                                <li>HTML </li>
+                                <li>CSS </li>
+                                <li>Javascript </li>
+                                <li>jQuery </li>
+                                <li>AngularJS </li>
+                                <li>Python Django </li>
+                                <li>Ruby Sinatra </li>
+                            </ul>
+                            <!-- * HTML<br>* CSS<br>* Javascript<br>* jQuery<br>* AngularJS<br>* Python Django<br>* Ruby Sinatra<br><br> -->
+                        </p>
 
                         
                     </div>
@@ -213,8 +266,17 @@
             <div class="card p-3 col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper media-container-row">
                     <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7" >Cloud &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
-                        <p class="mbr-text mbr-fonts-style display-7">* Hadoop<br>* Spark<br>* Kafka<br>* AWS<br>* GCP<br><br><br><br></p>
+                        <h4 class="card-title pb-3 mbr-fonts-style display-7" >Cloud </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <ul class="list-style-bullet">
+                                <li>Hadoop </li>
+                                <li>Spark </li>
+                                <li>Kafka </li>
+                                <li>AWS </li>
+                                <li>GCP </li>
+                            </ul>
+                            <!-- * Hadoop<br>* Spark<br>* Kafka<br>* AWS<br>* GCP<br><br><br><br> -->
+                        </p>
                     </div>
                 </div>
             </div>
@@ -223,9 +285,20 @@
                 <div class="card-wrapper media-container-row">
                     <div class="card-box">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7" >
-                            Datastores/Tools &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
+                            Datastores/Tools</h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            * Oracle<br>* MongoDB<br>* Elasticsearch<br>* Cassandra<br>* Docker<br>* Chef<br>* Git<br>* JIRA</p>
+                            <ul class="list-style-bullet">
+                                <li>Oracle </li>
+                                <li>MongoDB </li>
+                                <li>Elasticsearch </li>
+                                <li>Cassandra </li>
+                                <li>Docker </li>
+                                <li>Chef </li>
+                                <li>Git </li>
+                                <li>JIRA </li>
+                            </ul>
+                            <!-- * Oracle<br>* MongoDB<br>* Elasticsearch<br>* Cassandra<br>* Docker<br>* Chef<br>* Git<br>* JIRA -->
+                        </p>
                     </div>
                 </div>
             </div>
@@ -235,6 +308,7 @@
 
 <section class="timeline1 cid-qNTiFy2P3H" id="timeline1-v">
     <div class="container align-center">
+        <img src="assets/images/section.svg" class="section-sep" alt="">
         <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">
             Experience<br></h2>
         <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5"></h3>
@@ -300,6 +374,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
+                <img src="assets/images/section.svg" class="section-sep" alt="">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">
                     Projects</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"></h3>
@@ -365,6 +440,7 @@
         <div class="media-container-row">
             <div class="col-md-8 align-center">
                 <h2 class="pb-3 mbr-section-title mbr-fonts-style display-2">
+                    <img src="assets/images/section.svg" class="section-sep" alt="">
                     Connect with me
                 </h2>
                 <div>
